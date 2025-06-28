@@ -2,8 +2,11 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='w-[100%] fixed top-5 left-0  z-[50] flex justify-center'>
-      <div className='flex justify-between items-center w-[40%] bg-gray-500/30 rounded-[50px] px-[50px] py-[5px] backdrop-blur-md text-white'>
-        <NavLink className={(e)=>`duration-300 hover:text-amber-500 ${e.isActive?"text-amber-500":""}`} to='/'>Home</NavLink>
+      
+
+      <div className='flex justify-between items-center w-[40%] bg-[#58585826] rounded-[50px] px-[50px] py-[5px] backdrop-blur-md text-white'>
+        <NavLink className={(e)=>`duration-300 hover:text-amber-500 ${e.isActive?"text-amber-500":""}`} to='/'>      <img className='h-20 cursor-pointer absolute top-[-.9rem] left-[-22rem]' src="/assets/logo.png" alt="" />
+Home</NavLink>
         <NavLink className={(e)=>`duration-300 hover:text-amber-500 ${e.isActive?"text-amber-500":""}`} to='/about'>About</NavLink>
         <NavLink className={(e)=>`px-7 py-3 rounded-sm font-semibold transition duration-300 ${e.isActive?"bg-amber-100 text-amber-600":"bg-amber-500 text-white hover:bg-amber-800"}`} to='/create'>Create</NavLink>
         <NavLink className={(e)=>`duration-300 hover:text-amber-500 ${e.isActive?"text-amber-500":""}`} to='/recipe'>Recipe</NavLink>

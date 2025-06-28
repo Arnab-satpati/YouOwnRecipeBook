@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* Add custom styles below */
-.custom-scrollbar::-webkit-scrollbar {
+/* .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
 }
 
@@ -19,4 +19,34 @@
 .custom-scrollbar {
   scrollbar-width: thin;
   scrollbar-color: rgb(156 163 175) transparent;
+} */
+
+
+@layer utilities {
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #070707; /* dark base */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #B44100; /* chef orange */
+    border-radius: 8px;
+    border: 2px solid #070707; /* to blend with background */
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f59e0b; /* amber-500 on hover */
+  }
+
+  /* Firefox support */
+  html {
+    scrollbar-color: #B44100 #070707;
+    scrollbar-width: thin;
+  }
 }
+
