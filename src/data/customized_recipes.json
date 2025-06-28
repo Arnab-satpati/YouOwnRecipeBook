@@ -1,0 +1,44 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&auto=format&fit=crop&q=60",
+    "title": "Hot Burgers",
+    "description": "Sink your teeth into the ultimate indulgence \u2014 the Hot Burger, our signature lunchtime masterpiece. This beast begins with a thick, juicy beef patty, flame-grilled to perfection, locking in all the smoky flavors you'd expect from a premium grillhouse. It\u2019s smothered in two layers of melted sharp cheddar that oozes over the edges, paired with caramelized onions that add a touch of sweetness to the savory profile.\n\nCrisp, shredded lettuce adds a refreshing crunch, balanced by thin-sliced tomatoes, tangy pickles, and a slather of our house-blend smoky chipotle aioli. All this sits between two buttery, toasted brioche buns that are soft yet firm enough to hold the glory together. Each bite hits a wave of heat, juiciness, and texture that makes you stop, close your eyes, and say, \u201cDamn, this is next level.\u201d\n\nServed best with thick-cut fries and an ice-cold cola on the side. It\u2019s not just a burger \u2014 it\u2019s a bold, unforgettable experience in your mouth.",
+    "category": "Lunch",
+    "id": "1"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60",
+    "title": "Pizza",
+    "description": "Welcome to Pizza Perfection \u2014 a dinner classic reborn with artisan elegance. This hand-stretched, stone-baked pizza features a golden, lightly blistered crust with the perfect chew and crunch balance. The base is painted with a slow-simmered San Marzano tomato sauce, richly spiced with garlic, oregano, and a hint of chili.\n\nIt\u2019s topped with a generous layer of mozzarella \u2014 bubbling, stringy, and golden-brown at the edges \u2014 and finished with sun-dried cherry tomatoes, roasted bell peppers, Kalamata olives, and thin-cut pepperoni curls that crisp just right in the oven. A final flourish of freshly chopped basil and a drizzle of garlic-infused olive oil elevates this pizza from comfort food to culinary art.\n\nThe flavor is smoky, tangy, cheesy, and perfectly balanced \u2014 making it ideal for a slow, soulful dinner or a late-night craving.",
+    "category": "Dinner",
+    "id": "2"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop&q=60",
+    "title": "Momos",
+    "description": "Enter the world of Himalayan street food magic with our handmade Spicy Momos, a breakfast (or anytime) sensation that hits all the right notes. These delicate dumplings are handcrafted with love, filled with a savory mix of minced chicken, finely chopped spring onions, garlic, crushed pepper, and secret spices that awaken your taste buds.\n\nLightly steamed to maintain their softness and juiciness, each momo bursts with flavor in your mouth. They're served piping hot with our house-special searing red chili-garlic chutney \u2014 smoky, tangy, and addictive. The slight chew of the dough combined with the spice-packed filling creates a textural play that's both comforting and exciting.\n\nWhether you\u2019re starting your day with something savory or satisfying a mid-day snack craving, these momos are your go-to pocket-sized flavor bombs.",
+    "category": "Breakfast",
+    "id": "3"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&auto=format&fit=crop&q=60",
+    "title": "Hot Burgers (Double Trouble Edition)",
+    "description": "Not for the faint-hearted, the Double Trouble Burger is an amplified version of our beloved classic \u2014 more meat, more cheese, more crunch, and absolutely more flavor. It begins with two thick, seared patties that drip with juice, layered with aged cheddar, gooey Monterey Jack, and a swipe of bourbon-infused BBQ sauce for smoky depth.\n\nAdd to that crispy onion rings, fire-roasted jalape\u00f1os, maple-glazed bacon, and a creamy garlic ranch slathered generously on each layer. It\u2019s stacked high in a sesame seed brioche bun, then skewered with a knife to hold the glorious chaos together. Every bite is a journey through heat, sweetness, crunch, melt, and madness \u2014 a rollercoaster for your senses.\n\nIt\u2019s not just lunch \u2014 it\u2019s your cheat day\u2019s crown jewel.",
+    "category": "Lunch",
+    "id": "4"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60",
+    "title": "Cheesy Pizza Bomb",
+    "description": "When pizza lovers dream, they dream of this \u2014 the Cheesy Pizza Bomb. This isn\u2019t your average slice; it\u2019s a flavor-loaded explosion that celebrates cheese in its purest, most unapologetic form. A butter-brushed crust cradles gooey layers of mozzarella, provolone, and parmesan over a tangy house-made tomato base.\n\nBetween the cheese stretches and golden-brown crunch, you\u2019ll taste caramelized onions, roasted garlic, basil oil, and sweet bursts of cherry tomatoes. With every slice, expect a string of cheese that won\u2019t let go \u2014 until you devour it. Finished with a garlic-herb drizzle, this is the pizza that makes you want to close your laptop and eat with both hands.",
+    "category": "Dinner",
+    "id": "5"
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop&q=60",
+    "title": "Spicy Steamed Momos",
+    "description": "A plate of our Spicy Steamed Momos is like a warm hug in dumpling form. Stuffed with a delicate mixture of minced vegetables, herbs, and spices, these momos are gently steamed until soft and slightly translucent. Each bite reveals a flavorful interior \u2014 mildly spicy, perfectly salted, and loaded with umami.\n\nThey\u2019re served with a tangy tomato-garlic chutney that brings the heat and pairs brilliantly with the soft, pillowy texture of the dumpling. It's a light meal, but one packed with soul and nostalgia \u2014 reminiscent of Tibetan tea shops and hillside cafes. Eat five, then six more, because they\u2019re that good.",
+    "category": "Breakfast",
+    "id": "6"
+  }
+]
