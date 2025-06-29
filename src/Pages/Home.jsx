@@ -4,9 +4,9 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="relative w-full min-h-screen">
-      <div className="absolute w-[48%] top-40 left-20">
-        <h1 className="text-[1.5rem] text-[#878787]">Tired of Boring Meals?</h1>
-        <h1 className="text-8xl w-[100%] font-semibold  text-white ">What’s Cooking? Let AI Decide!</h1>
+      <div className="absolute w-[48%] bg-transparent top-40 left-20">
+        <h1 className="text-[1.5rem] bg-transparent text-[#878787]">Tired of Boring Meals?</h1>
+        <h1 className="text-8xl w-[100%] font-semibold bg-transparent text-white ">What’s Cooking? Let AI Decide!</h1>
         <button onClick={()=>navigate('/askme')} className='px-3 py-3 mt-3 cursor-pointer text-lg bg-amber-500 rounded-2xl w-auto shadow-[0_0_20px_rgba(255,191,0,0.6)] hover:shadow-none transition-all duration-300'>🍳 Start Cooking with AI</button>
 
       </div>

@@ -3,12 +3,22 @@ import { useForm } from 'react-hook-form';
 import { useContext } from 'react';
 import { recipeContext } from '../context/RecipeContext';
 import { toast } from 'react-toastify';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useLocation } from 'react-router-dom';
 
 const Create = () => {
   const navigate = useNavigate();
   const { data, setData } = useContext(recipeContext);
-  const { register, handleSubmit, reset } = useForm();
+  const { state } = useLocation();
+
+  const { register, handleSubmit, reset } = useForm({
+    defaultValues: {
+      image: state?.image || '',
+      title: state?.title || '',
+      description: state?.description || '',
+      instructions: state?.instructions || '',
+      category: state?.category || '',
+    },
+  });
 
   const submithandler = (recipe) => {
     recipe.id = nanoid();
@@ -24,7 +34,7 @@ const Create = () => {
   };
 
   return (
-    <div className="relative min-h-screen bg-black text-white flex items-center justify-center overflow-hidden px-4 py-20">
+    <div className="relative min-h-screen  bg-black text-white flex items-center justify-center overflow-hidden px-4 py-20">
 
       {/* Radiant Orange Glow Orb */}
       <div className="absolute z-0 blur-[150px] opacity-80 bg-[#ff5c00] rounded-full w-[45.375rem] h-[33.5rem] top-[3.8125rem] right-[-6.125rem]" />
@@ -34,7 +44,7 @@ const Create = () => {
         onSubmit={handleSubmit(submithandler)}
         className="relative top-[2rem] z-10 w-full max-w-xl backdrop-blur-lg bg-white/5 border border-amber-500/55 rounded-2xl px-5 py-6 shadow-[0_0_30px_#f59e0b30] flex flex-col gap-4"
       >
-        <h1 className="text-3xl font-bold text-white mb-4">Create Your Recipe</h1>
+        <h1 className="text-3xl bg-transparent font-bold text-white mb-4">Create Your Recipe</h1>
 
         {/* Image URL */}
         <input
@@ -55,8 +65,16 @@ const Create = () => {
         {/* Description */}
         <textarea
           {...register("description")}
-          placeholder="Description"
+          placeholder="Short Description (Markdown supported)"
           rows={3}
+          className="w-full bg-transparent border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
+        />
+
+        {/* Instructions */}
+        <textarea
+          {...register("instructions")}
+          placeholder="Full Instructions (Markdown supported)"
+          rows={5}
           className="w-full bg-transparent border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
         />
 
@@ -67,6 +85,7 @@ const Create = () => {
         >
           <option className="bg-black text-white" value="Breakfast">Breakfast</option>
           <option className="bg-black text-white" value="Lunch">Lunch</option>
+          <option className="bg-black text-white" value="snacks">Snacks</option>
           <option className="bg-black text-white" value="Dinner">Dinner</option>
         </select>
 

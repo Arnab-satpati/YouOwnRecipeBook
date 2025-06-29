@@ -12,23 +12,25 @@ const RecipeUpdate = () => {
   const prompts = useParams();
   const recipe = data.find((recipe) => recipe.id === prompts.id);
 
-  if (!recipe) {
-    return <h1 className="text-3xl text-center text-white">Recipe not found</h1>;
-  }
 
   const { register, handleSubmit } = useForm({
     defaultValues: {
       image: recipe?.image,
       title: recipe?.title,
       description: recipe?.description,
+      instructions: recipe?.instructions || '',
       category: recipe?.category,
     },
   });
 
-  const submithandler = (recipe) => {
+  if (!recipe) {
+    return <h1 className="text-3xl text-center text-white">Recipe not found</h1>;
+  }
+
+  const submithandler = (updatedRecipe) => {
     const index = data.findIndex((item) => item.id === prompts.id);
     const copyData = [...data];
-    copyData[index] = { ...copyData[index], ...recipe };
+    copyData[index] = { ...copyData[index], ...updatedRecipe };
     setData(copyData);
     localStorage.setItem("recipes", JSON.stringify(copyData));
 
@@ -54,7 +56,7 @@ const RecipeUpdate = () => {
         className="relative top-[3rem] z-10 w-full max-w-xl backdrop-blur-lg bg-white/5 border border-amber-500/55 rounded-2xl px-5 py-6 shadow-[0_0_30px_#f59e0b30] flex flex-col gap-4"
         onSubmit={handleSubmit(submithandler)}
       >
-        <h1 className="text-3xl font-bold text-white mb-4">Update Your Recipe</h1>
+        <h1 className="text-3xl bg-transparent font-bold text-white mb-4">Update Your Recipe</h1>
 
         <input
           className="bg-transparent border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
@@ -73,7 +75,14 @@ const RecipeUpdate = () => {
         <textarea
           className="bg-transparent border-b border-white p-2 focus:outline-none focus:border-amber-400 placeholder:text-amber-100 mt-2"
           {...register('description')}
-          placeholder="Description"
+          placeholder="Short Description (Markdown supported)"
+        />
+
+        <textarea
+          className="bg-transparent border-b border-white p-2 focus:outline-none focus:border-amber-400 placeholder:text-amber-100 mt-2"
+          {...register('instructions')}
+          placeholder="Full Instructions (Markdown supported)"
+          rows={5}
         />
 
         <select
@@ -82,10 +91,11 @@ const RecipeUpdate = () => {
         >
           <option className="bg-black text-white" value="Breakfast">Breakfast</option>
           <option className="bg-black text-white" value="Lunch">Lunch</option>
+          <option className="bg-black text-white" value="snacks">snacks</option>
           <option className="bg-black text-white" value="Dinner">Dinner</option>
         </select>
 
-        <div className="flex gap-5 mt-4">
+        <div className="flex bg-transparent gap-5 mt-4">
           <button
             type="submit"
             className="px-4 py-3 bg-amber-500 hover:bg-amber-600 rounded-2xl w-1/2 text-white font-semibold shadow-lg transition-all"
@@ -95,7 +105,7 @@ const RecipeUpdate = () => {
           <button
             type="button"
             onClick={DeleteHandler}
-            className="px-4 py-3 text-[#641111] bg-[#101010] border border-[#641111] hover:text-red-500 hover:border-red-500 rounded-2xl w-1/2 font-semibold transition-all"
+            className="px-4 py-3 text-[#641111] bg-[#101010a8] border border-[#641111] hover:text-red-500 hover:border-red-500 rounded-2xl w-1/2 font-semibold transition-all"
           >
             Delete Recipe
           </button>

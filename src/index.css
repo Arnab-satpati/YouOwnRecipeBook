@@ -2,51 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add custom styles below */
-/* .custom-scrollbar::-webkit-scrollbar {
-  width: 6px;
-}
 
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: rgb(156 163 175);
-  border-radius: 9999px;
-}
-
-.custom-scrollbar {
-  scrollbar-width: thin;
-  scrollbar-color: rgb(156 163 175) transparent;
-} */
-
-
-@layer utilities {
-  /* Custom Scrollbar */
   ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
+    background: transparent;
   }
 
   ::-webkit-scrollbar-track {
-    background: #070707; /* dark base */
+    background: #000000;
+    box-shadow: none;
+    border: none;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #B44100; /* chef orange */
-    border-radius: 8px;
-    border: 2px solid #070707; /* to blend with background */
+    background-color: #B44100;
+    border-radius: 9999px;
+    border: 2px solid transparent; 
+    background-clip: content-box;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #f59e0b; /* amber-500 on hover */
+    background-color: #f59e0b;
   }
 
-  /* Firefox support */
-  html {
-    scrollbar-color: #B44100 #070707;
-    scrollbar-width: thin;
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;             /* Chrome, Safari, Opera */
   }
 }
 

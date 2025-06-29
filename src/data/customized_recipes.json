@@ -1,44 +1,120 @@
 [
   {
-    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&auto=format&fit=crop&q=60",
+    "title": "Aloo Paratha",
+    "category": "Breakfast",
+    "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/06/aloo-paratha-recipe.jpg",
+    "description": "A Punjabi household staple \u2014 this flaky, ghee-roasted flatbread stuffed with a spicy mashed potato mix brings the ultimate comfort and energy-packed breakfast.",
+    "instructions": "1. Boil potatoes until soft, then peel and mash in a bowl.\n2. Mix mashed potatoes with green chilies, chopped coriander, salt, turmeric, and amchur.\n3. Prepare wheat dough by kneading atta with a pinch of salt and water, let it rest for 15 minutes.\n4. Roll a small dough ball into a disc, add 2 tbsp filling, seal and roll gently.\n5. Cook on hot tawa, apply ghee on both sides, and roast until golden spots appear.\n6. Serve hot with curd, butter, and pickle.",
+    "id": "28a02ac4-94f4-4410-8258-bb18e1ebabfb"
+  },
+  {
+    "title": "Mutton Kosha (Kolkata Style)",
+    "category": "Lunch",
+    "image": "https://media.istockphoto.com/id/2159304720/photo/georgian-veal-chakapuli-with-fresh-greens-served-in-clay-ketsi.jpg?s=612x612&w=0&k=20&c=vXNPswjlSxTSS5HOpwWi2CsepYcw6hHBHpqHfggUqSU=",
+    "description": "Kolkata\u2019s iconic Mutton Kosha \u2014 dark, rich, slow-cooked goat meat curry loaded with aromatic spices and mustard oil. A Sunday lunch classic served with basmati rice or parathas.",
+    "instructions": "1. Marinate mutton with curd, turmeric, red chili, mustard oil, and salt. Let it sit for 1 hour.\n2. Heat mustard oil, add bay leaf, cinnamon, cloves, and black cardamom.\n3. Add onions and cook till golden brown. Add ginger-garlic paste and cook till oil separates.\n4. Mix in chopped tomatoes and all powdered spices. Cook till masala is thick.\n5. Add marinated mutton, cook on high for 10 mins, then simmer for 1 hour till tender.\n6. Finish with garam masala and a tsp of ghee. Serve with plain rice or luchi.",
+    "id": "bfc83270-cf67-4685-adf0-d188f7d97e8f"
+  },
+  {
+    "title": "Chingri Malai Curry",
+    "category": "Dinner",
+    "image": "https://media.istockphoto.com/id/1465607697/photo/delicious-indian-prawn-mashala-curry-spicy-prawn-recipe.jpg?s=612x612&w=0&k=20&c=9ayY9a7PPN5MerCVgXp7i3eCHecyHsxTW-XKGIwWWAk=",
+    "description": "Royal Bengali prawn curry where juicy tiger prawns are simmered in a creamy, mildly spiced coconut gravy that feels both indulgent and comforting.",
+    "instructions": "1. Clean prawns and marinate with turmeric and salt for 15 minutes.\n2. Lightly fry prawns in mustard oil and set aside.\n3. In the same pan, add bay leaf, cardamom, and clove. Saut\u00e9 onion paste till golden.\n4. Add ginger-garlic paste, green chili, and tomato puree. Cook till oil separates.\n5. Add coconut milk, salt, sugar and cook on low heat.\n6. Add fried prawns, simmer for 5 minutes. Finish with garam masala and ghee.\n7. Serve hot with steamed basmati rice.",
+    "id": "82dc2cef-ed7e-43dd-9a83-d6ebc91cdf82"
+  },
+  {
+    "title": "Paneer Butter Masala",
+    "category": "Dinner",
+    "image": "https://media.istockphoto.com/id/1305517229/photo/shahi-paneer-or-paneer-kadai.jpg?s=612x612&w=0&k=20&c=cGJ8LNDv2wWmyNSrW80jqccDIL7HywXbHNlvO5ka9Qs=",
+    "description": "Creamy North Indian curry made with soft paneer cubes dunked in a buttery tomato-cashew sauce, subtly sweet and bursting with rich flavors.",
+    "instructions": "1. Soak cashews in warm water and blend to a smooth paste.\n2. In butter, saut\u00e9 bay leaf, chopped onions until translucent. Add ginger-garlic paste.\n3. Add tomato puree and cook till thick. Mix in cashew paste, red chili powder, sugar, salt.\n4. Add water to adjust consistency. Add cream and paneer cubes.\n5. Simmer for 10 mins. Garnish with kasuri methi and coriander.\n6. Serve hot with naan or jeera rice.",
+    "id": "45d39a85-8216-403c-a544-c68762f61794"
+  },
+  {
+    "id": "7",
+    "title": "Ghugni Chaat",
+    "category": "Snacks",
+    "image": "https://media.istockphoto.com/id/1496710709/photo/ragda-patties.jpg?s=612x612&w=0&k=20&c=_qaS1x4RAcFlwhgqaq6cPsZhnpQn1dsjGT4EP3CLtxU=",
+    "description": "A spicy, tangy Bengali street favorite made with dried yellow peas, garnished with chopped onions, green chillies, and tamarind chutney.",
+    "instructions": "1. Soak dried yellow peas overnight.\n2. Pressure cook them with salt and turmeric.\n3. In a pan, heat oil and temper with bay leaf, cumin, chopped onion, ginger, and garlic.\n4. Add boiled peas, roasted cumin powder, and chili powder. Cook until thick.\n5. Serve in a bowl, top with chopped onions, green chilies, lemon juice, and tamarind chutney. Garnish with sev or coriander if desired."
+  },
+  {
+    "id": "8",
+    "title": "Tandoori Chicken",
+    "category": "Dinner",
+    "image": "https://media.istockphoto.com/id/953514746/photo/tandoori-chicken-whole-with-naan-and-raita.jpg?s=612x612&w=0&k=20&c=1IaMUgHNJwf8-h6XnzoiW64E0v_TxGhOItUQL9dwzRE=",
+    "description": "A North Indian classic featuring chicken marinated in yogurt, lemon juice, and bold spices, grilled to juicy perfection.",
+    "instructions": "1. Clean chicken and make slits.\n2. Mix yogurt, lemon juice, ginger-garlic paste, red chili, garam masala, and salt.\n3. Marinate chicken for 6 hours or overnight.\n4. Preheat oven or grill to 200°C. Place chicken on a rack.\n5. Cook 20–25 mins, basting with butter. Flip halfway.\n6. Serve hot with mint chutney and onion rings."
+  },
+  {
+    "id": "9",
+    "title": "Vegetable Stir-Fry (Low Cal)",
+    "category": "Dinner",
+    "image": "https://media.istockphoto.com/id/491237104/photo/stir-fry-chicken-sweet-peppers-and-green-beans.jpg?s=612x612&w=0&k=20&c=n-b1uV5fz2CYF-FhnBt5JNHK4mcLp9DMr6RsPXVdvmU=",
+    "description": "A colorful medley of crisp veggies tossed in soy sauce and garlic — a quick, healthy dinner for clean eating days.",
+    "instructions": "1. Chop broccoli, bell peppers, carrots, and mushrooms.\n2. Heat sesame oil in a wok. Add minced garlic and chili flakes.\n3. Add harder vegetables first (carrot, broccoli), stir-fry 2–3 mins.\n4. Add softer ones and a splash of soy sauce.\n5. Toss quickly until coated and glossy. Garnish with sesame seeds."
+  },
+  {
+    "id": "10",
+    "title": "Fish Fry (Kolkata Style)",
+    "category": "Snacks",
+    "image": "https://media.istockphoto.com/id/980462262/photo/tasty-grilled-fish.jpg?s=612x612&w=0&k=20&c=e6m9uJ3mKotLv5x8lZjMqLklA8cM4bl1qJtMwdlCnq8=",
+    "description": "Crispy on the outside, soft inside — this Bengali street special uses bhetki fish fillet coated in a spicy marinade and golden-fried.",
+    "instructions": "1. Clean bhetki fish fillets and pat dry.\n2. Marinate with mustard paste, lemon, salt, garlic, green chili paste for 30 mins.\n3. Coat with beaten egg and bread crumbs.\n4. Deep fry till golden brown.\n5. Serve with kasundi (mustard sauce), salad, and lemon wedges."
+  },
+  {
+    "id": "11",
+    "title": "Chicken Salad Bowl",
+    "category": "Lunch",
+    "image": "https://media.istockphoto.com/id/469803173/photo/meal-consisting-of-grilled-chicken-pieces-and-salad.jpg?s=612x612&w=0&k=20&c=WYQEAzLZ8_O1gnlp8kc5mqVguFX1NFBJaFv7sSk2PiA=",
+    "description": "High-protein salad with grilled chicken, fresh greens, cucumbers, and a tangy vinaigrette — perfect for gym-goers or work-from-home lunches.",
+    "instructions": "1. Grill seasoned chicken breasts and slice thinly.\n2. In a large bowl, combine lettuce, cherry tomatoes, cucumbers, onions, and olives.\n3. Add grilled chicken slices on top.\n4. Mix olive oil, lemon juice, salt, pepper, and a pinch of oregano for dressing.\n5. Drizzle over salad. Toss and serve chilled."
+  },
+  {
+    "id": "12",
+    "title": "Egg Curry (Bengali Style)",
+    "category": "Lunch",
+    "image": "https://media.istockphoto.com/id/1185235352/photo/boiled-eggs-cooked-in-spicy-curry-sauce-close-up-in-a-plate-horizontal.jpg?s=612x612&w=0&k=20&c=vI1r0To_SOHqy2721_AJ7OTejxDkSjMIEglR52AUrNY=",
+    "description": "A simple yet flavorful curry with boiled eggs simmered in a spicy onion-tomato gravy, perfect with steamed rice.",
+    "instructions": "1. Boil eggs, peel and set aside.\n2. Heat mustard oil, temper with bay leaf, cumin seeds, and dried red chili.\n3. Saut\u00e9 chopped onions till golden brown. Add ginger-garlic paste.\n4. Add chopped tomatoes, turmeric, red chili powder, and salt. Cook till oil separates.\n5. Add boiled eggs and simmer for 5 mins.\n6. Garnish with coriander leaves and serve hot."
+  },
+  {    "id": "13",
+    "title": "Paneer Tikka",
+    "category": "Snacks",
+    "image": "https://media.istockphoto.com/id/1186759790/photo/paneer-tikka-at-skewers-in-black-bowl-at-dark-slate-background-paneer-tikka-is-an-indian.jpg?s=612x612&w=0&k=20&c=cITToqM1KEnrixXjoLhEciqP24SxdKtW3QXykq-W5OE=",
+    "description": "Soft, smoky paneer cubes marinated in yogurt and spices, grilled to perfection. A popular vegetarian starter.",
+    "instructions": "1. Cut paneer into cubes and marinate with yogurt, ginger-garlic paste, red chili powder, turmeric, garam masala, and lemon juice for 1 hour.\n2. Skewer paneer with bell peppers and onions.\n3. Grill on a tandoor or oven at 200°C for 15–20 mins, basting with butter halfway through.\n4. Serve hot with mint chutney and lemon wedges."
+  },
+  {    "id": "14",
+    "title": "Dal Makhani",
+    "category": "Dinner",
+    "image": "https://media.istockphoto.com/id/1323206891/photo/makhana-bhel-chat-item-india.jpg?s=612x612&w=0&k=20&c=ASMEEt_SwcFExInrJovkM_e9O62G6ZXGWmibYh4Bvs0=",
+    "description": "A rich, creamy North Indian lentil dish made with black urad dal and kidney beans, slow-cooked to perfection and finished with butter and cream.",
+    "instructions": "1. Soak black urad dal and kidney beans overnight.\n2. Pressure cook with water, salt, and turmeric for 4–5 whistles.\n3. In a pan, heat butter and oil, add cumin seeds, ginger-garlic paste, and chopped onions. Saut\u00e9 till golden.\n4. Add tomato puree, red chili powder, garam masala, and cook till oil separates.\n5. Add cooked dal and beans, simmer for 30 mins. Stir in cream before serving.\n6. Garnish with coriander leaves and serve with naan or rice."
+  },
+  {
+    "id": "15",
+    "title": "Vegetable Biryani",
+    "category": "Lunch",
+    "image": "https://media.istockphoto.com/id/980135772/photo/indian-vegetable-pulav-or-biryani-made-using-basmati-rice-served-in-terracotta-bowl-selective.jpg?s=612x612&w=0&k=20&c=Hq9St3mIV-3osMA61wNZRMDUZpzE9HEVP8gSp-ydoRg=",
+    "description": "A fragrant, one-pot rice dish with mixed vegetables, basmati rice, and aromatic spices, cooked in a sealed pot for a rich flavor.",
+    "instructions": "1. Soak basmati rice for 30 minutes.\n2. In a pot, heat ghee, add whole spices (cumin, cardamom, cloves, bay leaf) and sliced onions. Saut\u00e9; till golden.\n3. Add chopped tomatoes, ginger-garlic paste, and mixed vegetables. Cook till soft.\n4. Add soaked rice, water, biryani masala, and salt. Bring to a boil.\n5. Cover tightly and cook on low heat for 20 minutes until rice is fluffy.\n6. Serve hot with raita or salad."
+  },
+  {
+    "id": "16",
+    "title": "Chocolate Lava Cake",
+    "category": "Dessert",
+    "image": "https://media.istockphoto.com/id/1346128287/photo/chocolate-fondant-cake-molten-lava-cake.jpg?s=612x612&w=0&k=20&c=zX5BNyWrbrBLKqEehMfIXej0hLz8a8eGEPT2naOPHuk=",
+    "description": "A decadent dessert with a gooey chocolate center, served warm with a scoop of vanilla ice cream.",
+    "instructions": "1. Preheat oven to 200°C. Grease ramekins with butter and dust with cocoa powder.\n2. Melt dark chocolate and butter together in a double boiler.\n3. In a bowl, whisk eggs, sugar, and vanilla extract until frothy.\n4. Fold in the melted chocolate mixture and sifted flour.\n5. Pour into prepared ramekins and bake for 12–14 minutes.\n6. Let cool for 1 minute, then invert onto plates. Serve immediately."
+  },
+  {
     "title": "Hot Burgers",
-    "description": "Sink your teeth into the ultimate indulgence \u2014 the Hot Burger, our signature lunchtime masterpiece. This beast begins with a thick, juicy beef patty, flame-grilled to perfection, locking in all the smoky flavors you'd expect from a premium grillhouse. It\u2019s smothered in two layers of melted sharp cheddar that oozes over the edges, paired with caramelized onions that add a touch of sweetness to the savory profile.\n\nCrisp, shredded lettuce adds a refreshing crunch, balanced by thin-sliced tomatoes, tangy pickles, and a slather of our house-blend smoky chipotle aioli. All this sits between two buttery, toasted brioche buns that are soft yet firm enough to hold the glory together. Each bite hits a wave of heat, juiciness, and texture that makes you stop, close your eyes, and say, \u201cDamn, this is next level.\u201d\n\nServed best with thick-cut fries and an ice-cold cola on the side. It\u2019s not just a burger \u2014 it\u2019s a bold, unforgettable experience in your mouth.",
     "category": "Lunch",
-    "id": "1"
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60",
-    "title": "Pizza",
-    "description": "Welcome to Pizza Perfection \u2014 a dinner classic reborn with artisan elegance. This hand-stretched, stone-baked pizza features a golden, lightly blistered crust with the perfect chew and crunch balance. The base is painted with a slow-simmered San Marzano tomato sauce, richly spiced with garlic, oregano, and a hint of chili.\n\nIt\u2019s topped with a generous layer of mozzarella \u2014 bubbling, stringy, and golden-brown at the edges \u2014 and finished with sun-dried cherry tomatoes, roasted bell peppers, Kalamata olives, and thin-cut pepperoni curls that crisp just right in the oven. A final flourish of freshly chopped basil and a drizzle of garlic-infused olive oil elevates this pizza from comfort food to culinary art.\n\nThe flavor is smoky, tangy, cheesy, and perfectly balanced \u2014 making it ideal for a slow, soulful dinner or a late-night craving.",
-    "category": "Dinner",
-    "id": "2"
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop&q=60",
-    "title": "Momos",
-    "description": "Enter the world of Himalayan street food magic with our handmade Spicy Momos, a breakfast (or anytime) sensation that hits all the right notes. These delicate dumplings are handcrafted with love, filled with a savory mix of minced chicken, finely chopped spring onions, garlic, crushed pepper, and secret spices that awaken your taste buds.\n\nLightly steamed to maintain their softness and juiciness, each momo bursts with flavor in your mouth. They're served piping hot with our house-special searing red chili-garlic chutney \u2014 smoky, tangy, and addictive. The slight chew of the dough combined with the spice-packed filling creates a textural play that's both comforting and exciting.\n\nWhether you\u2019re starting your day with something savory or satisfying a mid-day snack craving, these momos are your go-to pocket-sized flavor bombs.",
-    "category": "Breakfast",
-    "id": "3"
-  },
-  {
     "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500&auto=format&fit=crop&q=60",
-    "title": "Hot Burgers (Double Trouble Edition)",
-    "description": "Not for the faint-hearted, the Double Trouble Burger is an amplified version of our beloved classic \u2014 more meat, more cheese, more crunch, and absolutely more flavor. It begins with two thick, seared patties that drip with juice, layered with aged cheddar, gooey Monterey Jack, and a swipe of bourbon-infused BBQ sauce for smoky depth.\n\nAdd to that crispy onion rings, fire-roasted jalape\u00f1os, maple-glazed bacon, and a creamy garlic ranch slathered generously on each layer. It\u2019s stacked high in a sesame seed brioche bun, then skewered with a knife to hold the glorious chaos together. Every bite is a journey through heat, sweetness, crunch, melt, and madness \u2014 a rollercoaster for your senses.\n\nIt\u2019s not just lunch \u2014 it\u2019s your cheat day\u2019s crown jewel.",
-    "category": "Lunch",
-    "id": "4"
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500&auto=format&fit=crop&q=60",
-    "title": "Cheesy Pizza Bomb",
-    "description": "When pizza lovers dream, they dream of this \u2014 the Cheesy Pizza Bomb. This isn\u2019t your average slice; it\u2019s a flavor-loaded explosion that celebrates cheese in its purest, most unapologetic form. A butter-brushed crust cradles gooey layers of mozzarella, provolone, and parmesan over a tangy house-made tomato base.\n\nBetween the cheese stretches and golden-brown crunch, you\u2019ll taste caramelized onions, roasted garlic, basil oil, and sweet bursts of cherry tomatoes. With every slice, expect a string of cheese that won\u2019t let go \u2014 until you devour it. Finished with a garlic-herb drizzle, this is the pizza that makes you want to close your laptop and eat with both hands.",
-    "category": "Dinner",
-    "id": "5"
-  },
-  {
-    "image": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=500&auto=format&fit=crop&q=60",
-    "title": "Spicy Steamed Momos",
-    "description": "A plate of our Spicy Steamed Momos is like a warm hug in dumpling form. Stuffed with a delicate mixture of minced vegetables, herbs, and spices, these momos are gently steamed until soft and slightly translucent. Each bite reveals a flavorful interior \u2014 mildly spicy, perfectly salted, and loaded with umami.\n\nThey\u2019re served with a tangy tomato-garlic chutney that brings the heat and pairs brilliantly with the soft, pillowy texture of the dumpling. It's a light meal, but one packed with soul and nostalgia \u2014 reminiscent of Tibetan tea shops and hillside cafes. Eat five, then six more, because they\u2019re that good.",
-    "category": "Breakfast",
-    "id": "6"
+    "description": "Indulge in a mouthwatering burger packed with flavors from a smoky grilled beef patty, tangy chipotle aioli, and crunchy fresh vegetables, all wrapped in a buttery toasted brioche bun.",
+    "instructions": "1. Prepare the patty: Mix minced beef with salt, pepper, Worcestershire sauce, and garlic paste. Shape into thick patties.\n2. Grill the patties on high heat for 4 minutes per side until nicely charred.\n3. Add slices of sharp cheddar on top of the patties in the last minute to melt.\n4. Toast the brioche buns with butter on a pan until golden brown.\n5. Assemble: Spread chipotle aioli on the base, layer lettuce, tomato, patty, pickles, and caramelized onions.\n6. Cover with the bun top and serve hot with thick-cut fries and cola.",
+    "id": "131b42ee-81da-4f89-8e2d-6b8f60536109"
   }
 ]
