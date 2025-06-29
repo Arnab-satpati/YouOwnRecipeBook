@@ -34,7 +34,7 @@ const Create = () => {
   };
 
   return (
-    <div className="relative min-h-screen  bg-black text-white flex items-center justify-center overflow-hidden px-4 py-20">
+    <div className="relative min-h-screen scrollbar-hide  bg-black text-white flex items-center justify-center overflow-hidden px-4 py-20">
 
       {/* Radiant Orange Glow Orb */}
       <div className="absolute z-0 blur-[150px] opacity-80 bg-[#ff5c00] rounded-full w-[45.375rem] h-[33.5rem] top-[3.8125rem] right-[-6.125rem]" />
@@ -67,7 +67,7 @@ const Create = () => {
           {...register("description")}
           placeholder="Short Description (Markdown supported)"
           rows={3}
-          className="w-full bg-transparent border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
+          className="w-full bg-transparent scrollbar-hide border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
         />
 
         {/* Instructions */}
@@ -75,7 +75,7 @@ const Create = () => {
           {...register("instructions")}
           placeholder="Full Instructions (Markdown supported)"
           rows={5}
-          className="w-full bg-transparent border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
+          className="w-full bg-transparent scrollbar-hide border-b border-white focus:outline-none focus:border-amber-400 py-2 placeholder:text-amber-100"
         />
 
         {/* Category */}
@@ -87,6 +87,7 @@ const Create = () => {
           <option className="bg-black text-white" value="Lunch">Lunch</option>
           <option className="bg-black text-white" value="snacks">Snacks</option>
           <option className="bg-black text-white" value="Dinner">Dinner</option>
+          <option className="bg-black text-white" value="Dessert">Dessert</option>
         </select>
 
         {/* Submit Button */}

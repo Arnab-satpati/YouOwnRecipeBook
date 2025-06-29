@@ -18,7 +18,7 @@
   ::-webkit-scrollbar-thumb {
     background-color: #B44100;
     border-radius: 9999px;
-    border: 2px solid transparent; 
+    /* border: 2px solid transparent;  */
     background-clip: content-box;
   }
 

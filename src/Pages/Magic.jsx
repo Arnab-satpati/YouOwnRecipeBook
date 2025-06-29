@@ -20,8 +20,8 @@ const Magic = () => {
 >
   {/* Your Magic section's content here */}
   <div className="relative z-10 w-full h-[31.2rem] top-[2rem] max-w-4xl bg-white/5 border border-[#B44100]/40 rounded-2xl p-6 backdrop-blur-lg shadow-[0_0_30px_#B4410055]">
-    <h2 className="text-3xl bg-transparent font-bold mb-4 text-[#f59e0b]">ChefBot Magic 🧑‍🍳🍲 – Hot Pot</h2>
-    <p className= " bg-transparent text-white/80">Tell us your cravings and ingredients... ChefBot does the rest!</p>
+    <h2 className="text-3xl text-center bg-transparent font-bold mb-4 text-[#f59e0b]">ChefBot Magic 🧑‍🍳🍲 – Hot Pot</h2>
+    <p className= " bg-transparent text-center text-white/80">Tell us your cravings and ingredients... ChefBot does the rest!</p>
     {/* AI Chat UI Goes Here */}
     <ChefBot />
   </div>

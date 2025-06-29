@@ -55,13 +55,13 @@ const RecipeDetails = () => {
         <div className="flex w-2/3 gap-5 mt-6">
             <button
               onClick={() => navigate("/recipe")}
-              className="px-4 py-3 bg-[#101010] hover:bg-amber-600 rounded-2xl w-1/2 text-white transition-all"
+              className="px-4 py-3 duration-500 bg-[#101010] hover:bg-amber-600 rounded-2xl w-1/2 text-white transition-all"
             >
                Go Back
             </button>
             <button
               onClick={() => navigate(`/recipe/update/${recipe.id}`)}
-              className="px-4 py-3 bg-[#101010] hover:bg-amber-600 rounded-2xl w-1/2 text-white transition-all"
+              className="px-4 py-3 bg-[#101010] hover:bg-amber-600 duration-500 rounded-2xl w-1/2 text-white transition-all"
             >
               Quick Update
             </button>
@@ -70,7 +70,7 @@ const RecipeDetails = () => {
     </div>
     </div>
   ) : (
-    <h1 className="text-white text-2xl text-center mt-10">Recipe not found</h1>
+    <h1 className="text-white text-3xl py-[10rem] text-center">Recipe not found</h1>
   );
 };
 

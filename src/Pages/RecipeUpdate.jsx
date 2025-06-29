@@ -73,13 +73,13 @@ const RecipeUpdate = () => {
         />
 
         <textarea
-          className="bg-transparent border-b border-white p-2 focus:outline-none focus:border-amber-400 placeholder:text-amber-100 mt-2"
+          className="bg-transparent scrollbar-hide border-b border-white p-2 focus:outline-none focus:border-amber-400 placeholder:text-amber-100 mt-2"
           {...register('description')}
           placeholder="Short Description (Markdown supported)"
         />
 
         <textarea
-          className="bg-transparent border-b border-white p-2 focus:outline-none focus:border-amber-400 placeholder:text-amber-100 mt-2"
+          className="bg-transparent border-b scrollbar-hide border-white p-2 focus:outline-none focus:border-amber-400 placeholder:text-amber-100 mt-2"
           {...register('instructions')}
           placeholder="Full Instructions (Markdown supported)"
           rows={5}
@@ -93,6 +93,7 @@ const RecipeUpdate = () => {
           <option className="bg-black text-white" value="Lunch">Lunch</option>
           <option className="bg-black text-white" value="snacks">snacks</option>
           <option className="bg-black text-white" value="Dinner">Dinner</option>
+          <option className="bg-black text-white" value="Dessert">Dessert</option>
         </select>
 
         <div className="flex bg-transparent gap-5 mt-4">
