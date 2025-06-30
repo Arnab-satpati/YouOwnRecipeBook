@@ -10,7 +10,7 @@ const Home = () => {
         <button onClick={()=>navigate('/askme')} className='px-3 py-3 mt-3 cursor-pointer text-lg bg-amber-500 rounded-2xl w-auto shadow-[0_0_20px_rgba(255,191,0,0.6)] hover:shadow-none transition-all duration-300'>🍳 Start Cooking with AI</button>
 
       </div>
-      <img className='h-[100vh] w-[100%] object-contain pl-[23.5rem] ' src='assets/heroimg.png' alt="Delicious Burger" />
+      <img className='h-[100vh] w-[100%] object-contain pl-[23.5rem] ' src='assets/heroimg.webp' alt="Delicious Burger" />
       {/* <div className="flex justify-center items-center relative h-auto ">
         <video autoPlay muted loop className="h-[auto] w item-center object-contain">
           <source src='/assets/ORBIT-5-01-LITE.mp4' type="video/mp4" />
