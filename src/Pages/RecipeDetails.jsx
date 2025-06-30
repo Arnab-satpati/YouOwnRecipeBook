@@ -30,7 +30,7 @@ const RecipeDetails = () => {
         </div>
 
         {/* Right: Scrollable Recipe Details */}
-        <div className='flex flex-col'>
+        <div className='flex flex-col w-full'>
         <div className="w-full flex flex-col justify-start max-h-[25rem] pt-5 gap-4 pr-8 overflow-y-auto custom-scrollbar">
           <p className="text-lg font-semibold text-amber-500">
             🍽️ Category: {recipe.category}
